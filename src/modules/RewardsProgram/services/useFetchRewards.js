@@ -9,6 +9,7 @@ function useFetchRewards() {
       setLoading(true);
       const response = await api.get("/customers/rewards");
       setResult(response);
+      setLoading(false);
     } catch (error) {
       setLoading(false);
     }
@@ -16,7 +17,7 @@ function useFetchRewards() {
   if (result === null && !loading) {
     fetchRewards();
   }
-  return { data: result, loading };
+  return { result: result ?? [], loading };
 }
 
 export default useFetchRewards;
