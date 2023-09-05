@@ -1,4 +1,4 @@
-const API_PREFIX = "/api/";
+const API_PREFIX = "/api";
 
 const api = {
   async get(url) {

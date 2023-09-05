@@ -17,6 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "start_build": "npm run build && node server.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prettier": "prettier --write --config .prettierrc",
