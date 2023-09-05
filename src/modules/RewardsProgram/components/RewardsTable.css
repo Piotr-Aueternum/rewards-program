@@ -1,0 +1,13 @@
+.RewardsTable {
+  text-align: center;
+  font-size: 1.8rem;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.RewardsTable-head {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.RewardsTable-row:nth-child(2n) {
+  background: rgba(0, 0, 0, 0.1);
+}
