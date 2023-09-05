@@ -1,7 +1,7 @@
 import defaultDateFormat from "./defaultDateFormat";
 
 /**
- * Sums points of transactions
+ * Get transactions unique months count
  * @param {{date: string}[]} transactions
  * @returns
  */
