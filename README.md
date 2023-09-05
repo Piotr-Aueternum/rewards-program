@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Intro
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Application displays a rewards points for each customer based on transactions and specific business rules
 
 ## Available Scripts
 
