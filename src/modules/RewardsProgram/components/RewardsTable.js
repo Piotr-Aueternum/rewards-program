@@ -6,16 +6,26 @@ function RewardsTable({ columns = [], rows = [] }) {
     <table className="RewardsTable">
       <thead className="RewardsTable-head">
         <tr>
+          <th className="RewardsTable-headCell">No.</th>
           {columns.map((column) => (
-            <th key={column.key}>{column.title}</th>
+            <th
+              className="RewardsTable-headCell"
+              style={{ "--columnsCount": columns.length }}
+              key={column.key}
+            >
+              {column.title}
+            </th>
           ))}
         </tr>
       </thead>
       <tbody>
-        {rows.map((row) => (
+        {rows.map((row, index) => (
           <tr key={row.key} className="RewardsTable-row">
+            <td className="RewardsTable-cell">{index}</td>
             {columns.map((column) => (
-              <td key={column.key}>{row[column.dataIndex]}</td>
+              <td className="RewardsTable-cell" key={column.key}>
+                {row[column.dataIndex]}
+              </td>
             ))}
           </tr>
         ))}
