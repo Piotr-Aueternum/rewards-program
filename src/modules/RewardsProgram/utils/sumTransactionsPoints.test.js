@@ -4,7 +4,7 @@ describe("Sum transaction points", () => {
   test("Should return 0 for no arguments passed", () => {
     expect(sumTransactionsPoints()).toBe(0);
   });
-  test("Should return 0 for no empty array", () => {
+  test("Should return 0 for empty array", () => {
     expect(sumTransactionsPoints([])).toBe(0);
   });
   test("Should return 10 for given value", () => {
