@@ -1,3 +1,5 @@
+![Intro](resources/intro.png)
+
 # Intro
 
 Application displays a rewards points for each customer based on transactions and specific business rules
