@@ -20,7 +20,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prettier": "prettier --write --config .prettierrc",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "mockServer": "node mock_server.js"
   },
   "husky": {
     "hooks": {
