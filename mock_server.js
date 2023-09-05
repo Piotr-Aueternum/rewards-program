@@ -7,7 +7,9 @@ const app = express();
 const port = 3010;
 
 app.get("/api/customers/rewards", (req, res) => {
-  res.json(createCustomersRewardsResponse(customers));
+  setTimeout(() => {
+    res.json(createCustomersRewardsResponse(customers));
+  }, 1500 * Math.random());
 });
 
 app.listen(port, () => {
