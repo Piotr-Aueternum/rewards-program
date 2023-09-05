@@ -21,7 +21,8 @@
     "eject": "react-scripts eject",
     "prettier": "prettier --write --config .prettierrc",
     "prepare": "husky install",
-    "mockServer": "node mock_server.js"
+    "mockServer": "node mock_server.js",
+    "testMock": "jest ./mocks --watchAll"
   },
   "husky": {
     "hooks": {

@@ -1,0 +1,15 @@
+[
+  {
+    "id": "8c845709-4d7c-4fb1-b7c1-41ec30eebb93",
+    "multiplier": 1,
+    "criteria": [
+      "e07189ad-9fc4-4a49-8d4d-cac115713f36",
+      "1237621b-38e6-4654-ae4e-cf88afaf1fc7"
+    ]
+  },
+  {
+    "id": "2b9c7498-0af6-4dac-b642-eb23acc84ae9",
+    "multiplier": 2,
+    "criteria": ["7c9f2e90-ea4e-4757-857d-704bc46fa269"]
+  }
+]
