@@ -9,4 +9,16 @@
 .RewardsProgram-header {
   font-size: 3rem;
   padding-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.RewardsProgram-reload {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
 }
