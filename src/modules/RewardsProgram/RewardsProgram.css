@@ -1,0 +1,12 @@
+.RewardsProgram {
+  font-size: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.RewardsProgram-header {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
